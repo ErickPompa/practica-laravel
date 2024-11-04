@@ -12,6 +12,13 @@
 
 </head>
 <body class="bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 text-xl">
-    @yield('content')
+    @include('layouts._partials.menu')
+
+    <div class="container p-2">
+
+        @yield('content')
+
+    </div>
+
 </body>
 </html>
